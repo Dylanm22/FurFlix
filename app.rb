@@ -24,7 +24,7 @@ erb(:home)
 end
 
 
-get("/:animal") do
+get("/dog") do
 
   url = "https://random.dog/woof.json"
   raw = HTTP.get(url)

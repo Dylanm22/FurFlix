@@ -1,7 +1,50 @@
+<!DOCTYPE html> 
+<html>
 <h1>animal page</h1>
 <%=@animal_pic%>
-<img src="https://random.dog/ec18751d-0c52-4dc9-a338-42a30017cc21.jpg " alt="">
+<body>
+
+<style>
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+body{
+
+
+height: 100vh;
+
+
+
+background-color: lightblue;
+
+}
+
+
+.card_class{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+
+}
+
+
+
+</style>
+
+<div class="card" style="width: 40rem;">
+<img src="<%=@animal_pic%>"class="card_class alt="dog_png" >
+
+</body>
+
 
 <div>
 
 <a href="/">back button</a>
+
+
+
+</html>
