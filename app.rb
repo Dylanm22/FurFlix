@@ -37,7 +37,44 @@ parsed_string = JSON.parse(raw_string)
 @animal_pic = parsed_string.fetch("url")
  
   pp @animal
-  erb(:animal_page)
+  erb(:dog)
 
 
+end
+  
+
+get("/cat")do 
+
+url = "https://api.thecatapi.com/v1/images/search?limit=1"
+raw_data = HTTP.get(url)
+parsed_string = JSON.parse(raw_data)
+
+cat_aray = parsed_string[0]
+
+@cat_pic = cat_aray.fetch("url")
+
+erb(:cat)
+end 
+
+get("/duck")do
+url = "https://random-d.uk/api/v2/random"
+raw_data = HTTP.get(url)
+parsed_string = JSON.parse(raw_data)
+@duck_pic = parsed_string.fetch("url")
+
+erb(:duck)
+
+
+end 
+
+
+get("/fox")do 
+
+url="https://randomfox.ca/floof/"
+
+raw_data = HTTP.get(url)
+parsed_string = JSON.parse(raw_data)
+@fox_pic= parsed_string.fetch("image")
+
+erb(:fox)
 end
