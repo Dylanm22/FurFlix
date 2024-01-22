@@ -4,35 +4,56 @@
     <title>Sinatra Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
+  
+  
+  
   <style>
   
-  .navbar{
+  
+  .header{
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 75%;
+  
+  padding: 10px 10px;
 
 
+  
 display: flex;
-
 justify-content: space-between;
-
-
+align-items: center;
+z-index: 100;
   }
+  
+  .logo{
+
+font-size: 30px;
+text-decoration: none;
+
+
+
+font-family: ;
+
+font-weight: bold;
+  }
+  
+  
   </style>
-  
 
-  <div class=navbar>
-  
-  <a href="/">home</a>
+</head>
 
-<a href="/dog">dog</a>
- <a href="/cat">cat</a>
- <a href="/duck">duck</a>
-  <a href="/fox">fox</a>
-  </div>
+<header class="header">
+  <a href="/" style="color: inherit;" class="logo">FurryFlix</a>
+
+</header>
 
   
-  
-  </head>
-
   <body>
+    
+
+    
     <%= yield %>
   </body>
 </html>

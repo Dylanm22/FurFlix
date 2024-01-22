@@ -4,22 +4,19 @@ require "http"
 
 #making a web app that ask for animal name then app puts out a picture of said animal and a random name for animal
 
-
-
-
-
-
-
 get("/") do
   
+ 
   
-  
+
   "
   <h1>Welcome to your Sinatra App!</h1>
   <p>Define some routes in app.rb</p>
   "
 
 erb(:home)
+
+
 
 end
 
@@ -54,6 +51,7 @@ cat_aray = parsed_string[0]
 @cat_pic = cat_aray.fetch("url")
 
 erb(:cat)
+
 end 
 
 get("/duck")do
@@ -77,4 +75,5 @@ parsed_string = JSON.parse(raw_data)
 @fox_pic= parsed_string.fetch("image")
 
 erb(:fox)
+
 end

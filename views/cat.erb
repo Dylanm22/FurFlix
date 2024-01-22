@@ -5,13 +5,24 @@
 body{
 background: lightpink;
 
+}
+img{
+border: 20px solid #555; 
+
 
 
 
 }
-
 </style>
 <div style="text-align: center;">
 
-<img src="<%=@cat_pic%>" width=400 height=400 alt="catpng">
+<img src="<%=@cat_pic%>" width=500 height=500 alt="catpng">
 </div>
+
+
+<form style="text-align: center;" action="/cat">
+
+<button>New picture</button>
+</form>
+
+

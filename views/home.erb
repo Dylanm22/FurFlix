@@ -1,6 +1,85 @@
 
 
-<h1>Welcom to animal picker</h1>
+<style>
+body{
+ Background: azure;
+margin:0;
+padding:10px;
+height:30vh;
+justify-content:left;
+align-items: center;
+display: flex;
+
+}
+
+.dog_button{
+font-family:"Roboto", sans-serif;
+font-size: 18px;
+font-weight: bold;
+background: skyblue;
+width: 160px;
+padding:20px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+border-radius: 20px;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: box-shadow, transform;
+transition-property: box-shadow, transform;
+}
+
+.dog_button:hover, .dog_button:focus, .dog_button:active{
+
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+.cat_button{
+font-family:"Roboto", sans-serif;
+font-size: 18px;
+font-weight: bold;
+background: #FFE87E;
+width: 160px;
+padding:20px;
+margin: 20px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+border-radius: 20px;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: box-shadow, transform;
+transition-property: box-shadow, transform;
+}
+
+.cat_button:hover, .cat_button:focus, .cat_button:active{
+
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
 
 
-<h2>pick animal</h2>
+
+
+</style>
+
+<body>
+
+  
+<a href="/dog" class="dog_button">Dog</a>
+
+<a href="/cat" class="cat_button">Cat</a>
+
+
+
+
+</body>
