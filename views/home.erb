@@ -2,11 +2,11 @@
 
 <style>
 body{
- Background: azure;
-margin:0;
-padding:10px;
+Background: white;
+margin:0px;
+padding:30px;
 height:30vh;
-justify-content:left;
+justify-content:center;
 align-items: center;
 display: flex;
 
@@ -43,7 +43,7 @@ transform: scale(1.1);
 font-family:"Roboto", sans-serif;
 font-size: 18px;
 font-weight: bold;
-background: #FFE87E;
+background: #FFE465;
 width: 160px;
 padding:20px;
 margin: 20px;
@@ -67,14 +67,110 @@ box-shadow: 0 0 20px rgba(0,0,0,0.5);
 transform: scale(1.1);
 }
 
+.duck_button{
+font-family:"Roboto", sans-serif;
+font-size: 18px;
+font-weight: bold;
+background: #C8C5B8  ;
+width: 160px;
+padding:20px;
+margin: 20px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+border-radius: 20px;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: box-shadow, transform;
+transition-property: box-shadow, transform;
+}
+
+.duck_button:hover, .duck_button:focus, .duck_button:active{
+
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+.fox_button{
+font-family:"Roboto", sans-serif;
+font-size: 18px;
+font-weight: bold;
+background: #FD862F ;
+width: 160px;
+padding:20px;
+margin: 20px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+border-radius: 20px;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: box-shadow, transform;
+transition-property: box-shadow, transform;
+}
+
+.fox_button:hover, .fox_button:focus, .fox_button:active{
+
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+
+
+
+.random_button{
+font-family:"Roboto", sans-serif;
+font-size: 18px;
+font-weight: bold;
+background: #FF96B5 ;
+width: 160px;
+padding:20px;
+margin: 20px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+border-radius: 20px;
+cursor: pointer;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: box-shadow, transform;
+transition-property: box-shadow, transform;
+}
+
+.random_button:hover, .random_button:focus, .random_button:active{
+
+box-shadow: 0 0 20px rgba(0,0,0,0.5);
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+
+
+
+
+
+
+
 </style>
 
-<body>
-
-  
+<body >
+<a href="/random" class="random_button">random</a>
+ 
 <a href="/dog" class="dog_button">Dog</a>
 
 <a href="/cat" class="cat_button">Cat</a>
+
+<a href="/duck" class="duck_button">Duck</a>
+
+<a href="/fox" class="fox_button">Fox</a>
 
 
 
