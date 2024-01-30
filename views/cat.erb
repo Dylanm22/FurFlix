@@ -10,9 +10,8 @@
 
     <!-- Load  font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  </head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
 
   <style>
     body{
@@ -25,9 +24,7 @@
      }
     .new-pic{
 
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-
+    font-family: 'Quicksand', sans-serif;
     }
 
       .dog_button{
@@ -195,14 +192,14 @@
       <a href="/fox" class="fox_button">Fox</a>
 
     </div>
-    <h1 style="text-align: center;">cat page</h1>
+    <h1 style="text-align: center;"class="new-pic">cat page</h1>
 
     <div style="text-align: center;">
       <img src="<%=@cat_pic%>" width=600 height=600 alt="catpng">
     </div>
     <div style= "text-align: center; display: inline;">
       <form  action="/cat">
-        <button style="display: inline-block;" class="new-pic">New picture</button>
+        <button class="new-pic">New picture</button>
       </form>
     </div>
   </body>
