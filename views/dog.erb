@@ -1,50 +1,47 @@
-<!DOCTYPE html> 
-<html>
-<h1 style="text-align: center;" >cute dog</h1>
+<!doctype html>
+<html lang="en">
 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid Challenge</title>
 
+    <!-- Link to stylesheets/CSS -->
 
+    <!-- Load  font -->
+  </head>
 
+  <style>
+    body{
+    background-color: #EBFFFE     ;
 
+    }
 
-<body>
+    .border{
+     border: 2px solid black;
 
-<style>
+     }
+    img{
 
+    border-radius: 20px;
+    }
+  </style>
 
-body{
-background-color: #E7FFFF   ;
+  <body>
 
-}
+    <h1 style="text-align: center;" >cute dog</h1>
 
-.border{
- border: 2px solid black;
- 
- }
-img{
+    <div style="text-align: center;">
 
-border-radius: 20px;
-}
+      <div style="text-align: center;">
+        <img class="border"  width="600" height=600 src="<%=@animal_pic%>"alt="dog_png" >
 
-</style>
+        <form action="/dog">
 
+          <button>New picture</button>
 
-<div style="text-align: center;">
-<img class="border"  width="500" height=500 src="<%=@animal_pic%>"alt="dog_png" >
+        </form>
 
-<form action="/dog">
+      </body>
 
-
-<button>New picture</button>
-
-</form>
-
-
-</body>
-
-
-<div>
-
-
-
-</html>
+    </html>

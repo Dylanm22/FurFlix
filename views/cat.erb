@@ -1,29 +1,48 @@
-<h1 style="text-align: center;">cat page</h1>
+<!doctype html>
+<html lang="en">
 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FurFlix🐾</title>
 
-<style>
-body{
-background: #FFF9CB  ;
+    <!-- Link to stylesheets/CSS -->
 
-}
-img{
-border: 2px solid black; 
+    <!-- Load  font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
 
+  <style>
+    body{
+     background: #FFF9CB  ;
+     }
 
+     img{
+     border: 2px solid black;
+     border-radius: 20px;
+     }
+    .new-pic{
+   
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    
+    }
 
+  </style>
 
-border-radius: 20px;
-}
+  <body>
+    <h1 style="text-align: center;">cat page</h1>
 
-}
-</style>
-<div style="text-align: center;">
+    <div style="text-align: center;">
+      <img src="<%=@cat_pic%>" width=600 height=600 alt="catpng">
+    </div>
+    <div style= "text-align: center; display: inline;">
+    <form  action="/cat">
+      <button style="display: inline-block;" class="new-pic">New picture</button>
+    </form>
+    </div>
+  </body>
 
-<img src="<%=@cat_pic%>" width=500 height=500 alt="catpng">
-</div>
-
-
-<form style="text-align: center;" action="/cat">
-
-<button>New picture</button>
-</form>
+</html>
