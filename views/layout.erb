@@ -4,56 +4,45 @@
     <title>Sinatra Template</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-  
-  
-  
+  </head>
+  <header class="header">
+    <a href="/" style="color: inherit;" class="logo">FurFlix🐾  </a>
+
+  </header>
+
   <style>
-  
-   
-  .header{
-  
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 75%;
-  
-  padding: 10px 10px;
+    .header{
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75%;
 
-  
-display: flex;
-justify-content: space-between;
-align-items: center;
-z-index: 100;
-  }
-  
-  .logo{
-
-font-size: 30px;
-text-decoration: none;
+    padding: 10px 10px;
 
 
 
-font-family:Andale Mono, monospace ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    }
+
+    .logo{
+
+    font-size: 30px;
+    text-decoration: none;
 
 
-  }
-  
-  
+
+    font-family:Andale Mono, monospace ;
+
+
+    }
   </style>
 
-</head>
-
-<header class="header">
-  <a href="/" style="color: inherit;" class="logo">FurFlix🐾  </a>
-
-</header>
-
-  
   <body>
-    
 
-    
     <%= yield %>
   </body>
 </html>

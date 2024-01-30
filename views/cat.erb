@@ -10,9 +10,9 @@
 
     <!-- Load  font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
   <style>
     body{
      background: #FFF9CB  ;
@@ -133,17 +133,12 @@
       transition-property: box-shadow, transform;
 
       }
-
       .fox_button:hover, .fox_button:focus, .fox_button:active{
 
       box-shadow: 0 0 20px rgba(0,0,0,0.5);
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
       }
-
-
-
-
       .random_button{
       font-family:"Roboto", sans-serif;
       font-size: 18px;
@@ -165,16 +160,12 @@
       transition-property: box-shadow, transform;
 
       }
-
       .random_button:hover, .random_button:focus, .random_button:active{
-
       box-shadow: 0 0 20px rgba(0,0,0,0.5);
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
       }
     .box{
-
-
       display: flex;
       justify-content:center;
       align-items: center;
@@ -197,11 +188,11 @@
     <div style="text-align: center;">
       <img src="<%=@cat_pic%>" width=600 height=600 alt="catpng">
     </div>
+
     <div style= "text-align: center; display: inline;">
       <form  action="/cat">
         <button class="new-pic">New picture</button>
       </form>
     </div>
   </body>
-
 </html>

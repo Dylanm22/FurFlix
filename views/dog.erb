@@ -9,9 +9,9 @@
     <!-- Link to stylesheets/CSS -->
 
     <!-- Load  font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
 
   <style>
@@ -19,16 +19,13 @@
     background-color: #EBFFFE     ;
 
     }
-
     .border{
      border: 2px solid black;
 
      }
     img{
-
     border-radius: 20px;
     }
-
      .dog_button{
       font-family:"Roboto", sans-serif;
       font-size: 18px;
@@ -49,14 +46,11 @@
       transition-property: box-shadow, transform;
 
       }
-
       .dog_button:hover, .dog_button:focus, .dog_button:active{
-
       box-shadow: 0 0 20px rgba(0,0,0,0.5);
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
       }
-
       .cat_button{
       font-family:"Roboto", sans-serif;
       font-size: 18px;
@@ -76,16 +70,12 @@
       transition-duration: 0.3s;
       -webkit-transition-property: box-shadow, transform;
       transition-property: box-shadow, transform;
-
       }
-
       .cat_button:hover, .cat_button:focus, .cat_button:active{
-
       box-shadow: 0 0 20px rgba(0,0,0,0.5);
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
       }
-
       .duck_button{
       font-family:"Roboto", sans-serif;
       font-size: 18px;
@@ -107,9 +97,7 @@
       transition-property: box-shadow, transform;
 
       }
-
       .duck_button:hover, .duck_button:focus, .duck_button:active{
-
       box-shadow: 0 0 20px rgba(0,0,0,0.5);
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
@@ -133,19 +121,12 @@
       transition-duration: 0.3s;
       -webkit-transition-property: box-shadow, transform;
       transition-property: box-shadow, transform;
-
       }
-
       .fox_button:hover, .fox_button:focus, .fox_button:active{
-
       box-shadow: 0 0 20px rgba(0,0,0,0.5);
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
       }
-
-
-
-
       .random_button{
       font-family:"Roboto", sans-serif;
       font-size: 18px;
@@ -165,26 +146,19 @@
       transition-duration: 0.3s;
       -webkit-transition-property: box-shadow, transform;
       transition-property: box-shadow, transform;
-
       }
-
       .random_button:hover, .random_button:focus, .random_button:active{
-
       box-shadow: 0 0 20px rgba(0,0,0,0.5);
       -webkit-transform: scale(1.1);
       transform: scale(1.1);
       }
     .box{
-
-
       display: flex;
       justify-content:center;
       align-items: center;
     }
     .font{
     font-family: 'Quicksand', sans-serif;
-
-
     }
   </style>
 
@@ -198,19 +172,17 @@
 
       <a href="/cat" class="cat_button">Cat</a>
     </div>
+
     <h1 style="text-align: center;" class="font" >cute dog</h1>
 
     <div style="text-align: center;">
-
       <div style="text-align: center;">
         <img class="border"  width="600" height=600 src="<%=@animal_pic%>"alt="dog_png" >
-
         <form action="/dog">
-
           <button>New picture</button>
-
         </form>
+      </div>
+    </div>
+  </body>
 
-      </body>
-
-    </html>
+</html>

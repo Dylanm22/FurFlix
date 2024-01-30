@@ -1,217 +1,212 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Grid Challenge</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid Challenge</title>
 
-  <!-- Link to stylesheets/CSS -->
- 
-  <!-- Load  font -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
-</head>
+    <!-- Link to stylesheets/CSS -->
 
-<body>
-</body>
+    <!-- Load  font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+  </head>
 
+  
 
-
-
-
-<style>
-  body{
-  Background: #FFE1B9 ;
-  }
-  img{
+  <style>
+    body{
+    Background: #FFE1B9 ;
+    }
+    img{
 
 
-    border-radius:20px;
-    border:2px solid black ;
-  }
-  .dog_button{
-    font-family:"Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    background: skyblue;
-    width: 70px;
-    padding:20px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
+      border-radius:20px;
+      border:2px solid black ;
+    }
+    .dog_button{
+      font-family:"Roboto", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      background: skyblue;
+      width: 70px;
+      padding:20px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: box-shadow, transform;
+      transition-property: box-shadow, transform;
 
+      }
+
+      .dog_button:hover, .dog_button:focus, .dog_button:active{
+
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      }
+
+      .cat_button{
+      font-family:"Roboto", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      background: #FFE465;
+      width: 70px;
+      padding:20px;
+      margin: 20px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: box-shadow, transform;
+      transition-property: box-shadow, transform;
+
+      }
+
+      .cat_button:hover, .cat_button:focus, .cat_button:active{
+
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      }
+
+      .duck_button{
+      font-family:"Roboto", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      background: #C8C5B8  ;
+      width: 70px;
+      padding:20px;
+      margin: 20px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: box-shadow, transform;
+      transition-property: box-shadow, transform;
+
+      }
+
+      .duck_button:hover, .duck_button:focus, .duck_button:active{
+
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      }
+      .fox_button{
+      font-family:"Roboto", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      background: #FD862F ;
+      width: 70px;
+      padding:20px;
+      margin: 20px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: box-shadow, transform;
+      transition-property: box-shadow, transform;
+
+      }
+
+      .fox_button:hover, .fox_button:focus, .fox_button:active{
+
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      }
+
+
+
+
+      .random_button{
+      font-family:"Roboto", sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      background: #FF96B5 ;
+      width: 70px;
+      padding:20px;
+      margin: 20px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: box-shadow, transform;
+      transition-property: box-shadow, transform;
+
+      }
+
+      .random_button:hover, .random_button:focus, .random_button:active{
+
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+      }
+    .box{
+
+
+      display: flex;
+      justify-content:center;
+      align-items: center;
     }
 
-    .dog_button:hover, .dog_button:focus, .dog_button:active{
 
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    .font{
+
+      font-family: 'Quicksand', sans-serif;
     }
+  </style>
 
-    .cat_button{
-    font-family:"Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    background: #FFE465;
-    width: 70px;
-    padding:20px;
-    margin: 20px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
+  <body>
+    <div class="box">
+      <a href="/random" class="random_button">random</a>
 
-    }
+      <a href="/dog" class="dog_button">Dog</a>
 
-    .cat_button:hover, .cat_button:focus, .cat_button:active{
+      <a href="/duck" class="duck_button">Duck</a>
 
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    }
+      <a href="/cat" class="cat_button">Cat</a>
+    </div>
+    <div style= "text-align: center;">
+      <h1 class="font">fox</h1>
 
-    .duck_button{
-    font-family:"Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    background: #C8C5B8  ;
-    width: 70px;
-    padding:20px;
-    margin: 20px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
+      <img src="<%=@fox_pic%>" width=600 height= "600" alt="fox_png">
 
-    }
+      <form action="/fox">
 
-    .duck_button:hover, .duck_button:focus, .duck_button:active{
+        <button> new image </button>
 
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    }
-    .fox_button{
-    font-family:"Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    background: #FD862F ;
-    width: 70px;
-    padding:20px;
-    margin: 20px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
+      </form>
 
-    }
-
-    .fox_button:hover, .fox_button:focus, .fox_button:active{
-
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    }
-
-
-
-
-    .random_button{
-    font-family:"Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    background: #FF96B5 ;
-    width: 70px;
-    padding:20px;
-    margin: 20px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    -webkit-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: box-shadow, transform;
-    transition-property: box-shadow, transform;
-
-    }
-
-    .random_button:hover, .random_button:focus, .random_button:active{
-
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    }
-  .box{
-
-
-    display: flex;
-    justify-content:center;
-    align-items: center;
-  }
-
-
-  .font{
-
-    font-family: 'Quicksand', sans-serif;
-  }
-</style>
-
-<body>
-  <div class="box">
-    <a href="/random" class="random_button">random</a>
-
-    <a href="/dog" class="dog_button">Dog</a>
-
-    <a href="/duck" class="duck_button">Duck</a>
-
-    <a href="/cat" class="cat_button">Cat</a>
-  </div>
-  <div style= "text-align: center;">
-    <h1 class="font">fox</h1>
-
-    <img src="<%=@fox_pic%>" width=600 height= "600" alt="fox_png">
-
-    <form action="/fox">
-
-      <button> new image </button>
-
-    </form>
-
-  </div>
-</body>
+    </div>
+  </body>
 </html>
