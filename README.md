@@ -1,18 +1,7 @@
-# sinatra-template
+FurFlix is an app that lets the user look at random pictures of spicific animals 
 
-Use this repository to create new Sinatra apps. 
+when the app is opened the user has the option to choose which animal picture they want to see 
 
-Optionally, to use `ActiveRecord` for database operations, add to the `app.rb`:
+or the user can click on the random button option to get a random animal picture
 
-```ruby
-require "sinatra/activerecord"
-```
-
-And in the `config/environment.rb` file add this code block:
-
-```ruby
-configure do
-  # setup a database connection
-  set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
-end
-```
+click the logo in top left to return to home screen
