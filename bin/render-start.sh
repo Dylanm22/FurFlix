@@ -4,7 +4,7 @@ set -o errexit
 
 # Uncomment the line depending on the framework you are deploying
 
-# Sinatra
+#Sinatra
 bundle exec rackup
 
 # Ruby on Rails
